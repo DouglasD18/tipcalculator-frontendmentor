@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+  <header>
+    <h1>Tip calculator app</h1>
+  </header>
+
+  <main>
+    <aside id="input">
+      <section id="bill">
+        <h2>Bill</h2>
+        <textarea class="same" id="dolar" cols="30" rows="1"></textarea>
+      </section>
+
+      <section id="select">
+        <h2>Select Tip %</h2>
+        <div id="percentual">
+          <div>
+            <button type="submit">5%</button>
+            <button type="submit">10%</button>
+            <button type="submit">15%</button>
+          </div>
+          <div>
+            <button type="submit">25%</button>
+            <button type="submit">50%</button>
+            <textarea name="" id="custom" cols="5" rows="1">Custom</textarea>
+          </div>
+        </div>
+      </section>
+
+      <section id="number">
+        <h2>Number of People</h2>
+        <textarea class="same" id="person" cols="30" rows="1"></textarea>
+      </section>
+    </aside>
+
+    <aside id="output">
+      <section class="output">
+        <div>
+          <h2>Tip Amount</h2>
+          <p>/ person</p>
+        </div>
+        <div class="value"></div>
+      </section>
+
+      <section class="output">
+        <div>
+          <h2>Total</h2>
+          <p>/ person</p>
+        </div>
+        <div class="value"></div>
+      </section>
+
+      <button type="submit" id="reset">Reset</button>
+    </aside>
+  </main>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/DouglasD18">Douglas Aguiar</a>.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

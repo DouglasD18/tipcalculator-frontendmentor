@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+body{
+    background-color: hsl(185, 41%, 84%);
+    align-content: center;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 28%;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+main aside {
+    width: 285px;
+    height: 280px;
+    margin: 10px 15px;
+}
+
+h2{
+    font-size: 0.85em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(39, 33, 26, 0.815);
+}
+
+#input button{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    width: 80px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#input section {
+    width: 250px;
+    margin-top: 10px;
+}
+
+#bill {
+    height: 60px;
+}
+
+#select {
+    height: 100px;
+}
+
+#number{
+    padding-top: 10px;
+}
+
+#percentual div {
+    display: flex;
+}
+
+#custom{
+    padding: 0;
+    height: 30px;
+    width: 80px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.same {
+    height: 20px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    background-color: rgba(194, 182, 166, 0.678);
+    text-align: end;
+}
+
+#dolar {
+    background-image: url("./images/icon-dollar.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left center;
+    padding: 0px 10px;
+}
+
+#person {
+    background-image: url("./images/icon-person.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left center;
+    padding: 0px 10px;
+}
+
+#output{
+    border-radius: 5px;
+    background-color: hsl(183, 100%, 15%);
+}
+
+#output button {
+    align-items: center;
+    margin: 45px 15px 25px 15px;
+    background-color: hsl(189, 58%, 64%);
+    font-family: 'Space Mono', monospace;
+    color: rgb(95, 83, 83);
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+#output section{
+    color: rgb(147, 168, 130);
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#output section h2 {
+    color: aliceblue;
+    font-size: 1em;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
