@@ -45,6 +45,7 @@ h2{
 #input section {
     width: 250px;
     margin-top: 10px;
+    margin-left: 20px;
 }
 
 #bill {
@@ -73,28 +74,25 @@ h2{
     margin-left: 5px;
 }
 
-.same {
-    height: 20px;
+.textarea{
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left center;
+    background-color: aliceblue;
     border-radius: 5px;
-    border-color: aliceblue;
-    background-color: rgba(194, 182, 166, 0.678);
+    border: none;
+    padding: 0px 10px;
+    width: 220px;
+    height: 22px;
     text-align: end;
 }
 
 #dolar {
     background-image: url("./images/icon-dollar.svg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: left center;
-    padding: 0px 10px;
 }
 
 #person {
     background-image: url("./images/icon-person.svg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: left center;
-    padding: 0px 10px;
 }
 
 #output{
